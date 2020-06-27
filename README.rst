@@ -26,6 +26,15 @@ Then run the following commands to bootstrap your environment ::
     git clone https://github.com/gothinkster/flask-realworld-example-app.git
     cd flask-realworld-example-app
     pip install -r requirements/dev.txt
+    
+Remark
+- If we can't install `psycopg2`, we should try next command::
+
+    export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/12.3/bin 
+ 
+
+where 12.3 is postgresql version
+
 
 
 Run the following commands to create your app's
